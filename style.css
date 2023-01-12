@@ -1,0 +1,85 @@
+/*css RESETER: */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 960px;
+  margin: auto;
+  font-family: Verdana;
+  background-color: rgb(41, 41, 41);
+}
+
+header {
+  color: rgb(255, 253, 136);
+  text-align: center;
+  background-image: url(./img/background.png);
+  height: 300px;
+  font-variant: small-caps;
+}
+
+nav {
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+}
+
+li a:hover {
+  background-color: rgb(26, 26, 26);
+}
+
+footer {
+  background-color: darkgray;
+  color: white;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+section {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+article {
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+form fieldset {
+  padding: 15px;
+  margin: 10px;
+}
+
+/*Table: */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
